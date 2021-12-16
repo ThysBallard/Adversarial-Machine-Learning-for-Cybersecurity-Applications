@@ -12,7 +12,13 @@ This code was developed for [Dr Aleksander Vakanski](https://www.webpages.uidaho
 
 # Structure
 
-The repository contains two different [Jupyter Notebooks](https://jupyter.org/), one for experiments on the KDD-Cup-99 dataset and the other for experiments on the Ember dataset. In each notebook, white-box non-targeted adversarial attacks are generated for their respective Deep Learning models. The adversarial attacks tested for each are:
+The repository contains two different [Jupyter Notebooks](https://jupyter.org/): 
+- [The experiments on the KDD-Cup-99 dataset](https://github.com/NegaNexus/Adversarial-Machine-Learning-for-Cybersecurity-Applications/blob/aaa90a827682bd8d93604cc95aff5a29d7ee77b5/AML_Assignment_3_Part_1(1).ipynb) ([nbviewer](https://nbviewer.org/github/NegaNexus/Adversarial-Machine-Learning-for-Cybersecurity-Applications/blob/aaa90a827682bd8d93604cc95aff5a29d7ee77b5/AML_Assignment_3_Part_1%281%29.ipynb))
+- [The experiments on the Ember dataset](https://github.com/NegaNexus/Adversarial-Machine-Learning-for-Cybersecurity-Applications/blob/aaa90a827682bd8d93604cc95aff5a29d7ee77b5/AML_Assignment_3_Part_2(1).ipynb) ([nbviewer](https://nbviewer.org/github/NegaNexus/Adversarial-Machine-Learning-for-Cybersecurity-Applications/blob/aaa90a827682bd8d93604cc95aff5a29d7ee77b5/AML_Assignment_3_Part_2%281%29.ipynb)).
+
+In each notebook, white-box non-targeted adversarial attacks are generated for their respective Deep Learning models.
+
+The adversarial attacks tested for each are:
 - **Fast Gradient Sign Method** from [Explaining and Harnessing Adversarial Examples by Goodfellow et al. (2015)](https://arxiv.org/abs/1412.6572) using the [implementation](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/modules/attacks/evasion.html#fast-gradient-method-fgm) in Adversarial Robustness Toolbox
 - **Carlini and Wagner ℓ2** from [Towards Evaluating the Robustness of Neural Networks by Carlini and Wagner (2016)](https://arxiv.org/abs/1608.04644) using the [implementation](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/modules/attacks/evasion.html#art.attacks.evasion.CarliniL2Method) in Adversarial Robustness Toolbox
 - **DeepFool** from [DeepFool: a simple and accurate method to fool deep neural networks by Moosavi-Dezfooli et al (2015)](https://arxiv.org/abs/1511.04599) using the [implementation](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/modules/attacks/evasion.html#art.attacks.evasion.DeepFool) in Adversarial Robustness Toolbox
